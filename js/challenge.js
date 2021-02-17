@@ -5,7 +5,7 @@ const minusButton = document.getElementById("minus");
 const plusButton = document.getElementById("plus");
 const heartButton = document.getElementById("heart");
 const pauseButton = document.getElementById("pause");
-const interval = setInterval(increment, 1000);
+let interval = setInterval(increment, 1000);
 function increment(){
     i++;
     counterTimer.textContent = i;
